@@ -1,0 +1,32 @@
+.favButtonOn {
+    background-color: #0000;
+    border-color: #0000;
+    transform:scale(1);
+    transition: 500ms;
+
+}
+
+.favButtonOff {
+    background-color: #0000;
+    border-color: #0000;
+    transform:scale(1);
+    transition: 500ms;
+}
+
+.favButtonOn:hover{
+    transform:scale(1.2);
+    transition: 300ms;
+}
+.favButtonOff:hover{
+    transform:scale(1.2);
+    transition: 300ms;
+}
+
+.favButtonOn:active{
+    transform:scale(0.5);
+    transition: 100ms;
+}
+.favButtonOff:active{
+    transform:scale(2);
+    transition: 100ms;
+}

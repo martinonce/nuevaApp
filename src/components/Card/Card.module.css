@@ -1,0 +1,117 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    width: 160px;
+    height: 300px;
+    margin-right: -30px;
+    flex-grow: 0;
+    object-fit: cover;
+    border: 2px solid rgb(56, 239, 10);
+    border-radius: 20px / 15px;
+    background-image: url(../../img/peakpx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    transition: 0.5s ease;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.cardContainer:hover{
+    cursor: crosshair;
+    width: 190px;
+    height: 340px;
+    opacity: 1;
+    margin-left: 35px;
+    margin-right: 5px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+.buttonContainer{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content:flex-end;
+}
+
+.stikerCard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    background-color:unset;
+    width: 99%;
+    height: 80%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.imgCard{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    height: 200px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end
+}
+
+.imgCard img {
+    align-self:center;
+    border-radius: 17px / 15px;
+    box-shadow: 0 0 20px 4px rgba(38, 249, 10, 0.7);
+    width: 65%;
+}
+
+.subTitle {
+    text-align: center;
+    font-size: small;
+    font-weight:bolder;
+    padding: 0px;
+    margin: 0px;
+    height: 2.2em;
+    color: chartreuse;
+}
+
+.Title {
+    text-align: center;
+    font-size: 1em;
+    font-weight:bolder;
+    padding: 0px;
+    margin: 0px;
+    height: 2.3em;
+    color: chartreuse;
+}
+
+.Title:hover {
+    font-size: 1.1em;
+    text-shadow: 1px 1px 3px rgba(38, 249, 10, 0.6);
+    font-weight:bolder;
+    padding: 0px;
+    margin: 0px;
+    height: 2.4em;
+    color: chartreuse;
+    transition: 0.7s ease;
+}
+.subTitle:hover {
+    font-size: 0.9em;
+    text-shadow: 1px 1px 3px rgba(38, 249, 10, 0.6);
+    font-weight:bolder;
+    padding: 0px;
+    margin: 0px;
+    height: 2.3em;
+    color: chartreuse;
+    transition: 0.7s ease;
+}

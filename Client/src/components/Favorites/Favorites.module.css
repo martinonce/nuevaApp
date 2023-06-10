@@ -1,0 +1,75 @@
+.favContainer{
+   display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+
+.selectContainer{
+   display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+   
+}
+
+.selectContainer select {
+   width: 130px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   margin-top: 5px;
+   margin-left: 10px;
+   margin-right: 10px;
+   font-weight:bolder;
+   text-align: center;
+   background-image: url(../../img/paul-volkmer-qVotvbsuM_c-unsplash.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   color:cornsilk;
+   border-radius: 20px;
+   box-shadow: inset 0 0 3px 3px antiquewhite,
+        0 0 0 0px antiquewhite,
+        3px -3px 30px #1beabd, 
+        -3px 3px 30px #10abff;
+}
+
+.selectContainer option {
+   font-weight:bolder;
+   color: chartreuse;
+   text-shadow: 1px 1px 3px rgba(38, 249, 10, 0.6);
+   background-color: #18223c;
+}
+
+.carrucelFav{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    @media (min-width:400px) {
+        width: 200px; 
+     }
+
+    @media (min-width:600px) {
+       width: 400px; 
+    }
+    
+    @media (min-width:900px) {
+        width: 800px; 
+     }
+   
+}

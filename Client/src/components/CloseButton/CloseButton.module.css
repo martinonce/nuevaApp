@@ -1,0 +1,63 @@
+.closeButtonContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items:flex-start;
+    width: 60px;
+    height: 50px;
+}
+.closeButton {
+    flex-grow: 1;
+    object-fit: cover;
+    cursor: pointer;
+    /* width: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #a50c0c;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #a50c0c;
+   }
+      
+   .closeButton .text {
+    transform: translateX(4px);
+    color: white;
+    font-weight: bold;
+   }
+   
+   .closeButton .icon {
+    position: absolute;
+    transform: translateX(17px);
+    height: 15px;
+    width: 0px;
+    display: flex;
+    align-items: center;
+   }
+   
+   .closeButton svg {
+    width: 15px;
+    fill: #eee;
+   }
+   
+   .closeButton:hover {
+    background: #c51515;
+   }
+   
+   .closeButton:hover .text {
+    color: transparent;
+   }
+   
+   .closeButton:hover .icon {
+    width: 140px;
+    border-left: none;
+    transform: translateX(17px);
+   }
+   
+   .closeButton:focus {
+    outline: none;
+   }
+   
+   .closeButton:active .icon svg {
+    transform: scale(0.8);
+   }

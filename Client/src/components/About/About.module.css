@@ -1,0 +1,83 @@
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:center;
+    background-image: linear-gradient(120deg, rgba(210,244,146,0.2) 0, rgba(124,188,10,0.2) 100%);
+    background-position: 50% 50%;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-size: auto auto;
+    box-shadow: 0 0 12px 2px rgba(124,188,10,0.5);
+    padding: 30px;
+}
+
+.perfilContainer{
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fotoPerfilContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    margin: 20px;
+    margin-left: 0px;
+    margin-top: 30px
+}
+
+.fotoPerfilContainer img {
+    height: 250px;
+    width: 250px;
+    flex: 0 1 auto;
+}
+
+.fotoPerfilContainer span {
+    flex: 0 1 auto;
+    color: antiquewhite;
+    font-size: medium;
+    font-weight:500;
+    font-style:italic;
+    text-align: center;
+}
+
+
+
+.perfilContainer span {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.perfilContainer span p {
+    margin: 20px;
+    margin-right: 0px;
+    flex: 0 1 auto;
+    color: antiquewhite;
+    font-size: larger;
+    font-weight:lighter;
+    text-align: justify;
+}
+
+.description{
+    width: 80%;
+    margin: 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: antiquewhite;
+    font-size:larger;
+    font-weight:lighter;
+    text-align: justify;
+}

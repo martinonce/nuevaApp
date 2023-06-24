@@ -75,6 +75,7 @@ function App() {
         
    // render the elements accordin the defined paths and any other path is redirect to /404
    return (
+      
       <div on className='App'>
          <Nav onSearch={onSearch} logOut={logOut}/>
          <Routes>
